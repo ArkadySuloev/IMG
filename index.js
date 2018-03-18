@@ -7,26 +7,39 @@ var four = document.getElementById('fourfoto')
 var textbox = document.getElementById('text')
 var button = document.getElementById('button')
 
+function reset() {
+	setTimeout(function () {
+		lovebox.src = 'love.jpg'
+	}, 500)
+}
+ 
 one.onclick = function () {
 	var lover = 'dog.jpg'
 
 	lovebox.src = lover
 
+	reset()
 }
 two.onclick = function () {
 	var lover = 'cat.jpg'
 
 	lovebox.src = lover
+
+	reset()
 }
 three.onclick = function () {
 	var lover = 'hamster.jpg'
 
 	lovebox.src = lover
+
+	reset()
 }
 four.onclick = function () {
 	var lover = 'parrot.jpg'
 
 	lovebox.src = lover
+
+	reset()
 }
 
 
