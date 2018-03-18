@@ -37,7 +37,7 @@ var textb = textbox.value
 	lovebox.src = 'dog.jpg'
 	textbox.value = ''
 }
-if (textb == 'хочу кошку'){
+if (textb == 'хочу котика'){
 	lovebox.src = 'cat.jpg'
 	textbox.value = ''
 
